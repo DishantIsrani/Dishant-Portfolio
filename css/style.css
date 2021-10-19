@@ -1,35 +1,3 @@
-/* colors*/
-
-/* 151515
-2A2927 - 2nd
-595853 - 3rd
-9E9A8D - 4th
-B7B3A6 - 5th */
-
-/* reset */
-
-
-/* GREEN
-:root{
-    --primary : #1a3f1f;
-    --dark : #153319;
-    --secondary : #2bcc41;
-    --info : #4df680;
-    --ternary : #848db3;
-    --pure : #eff2f9;
-    --fade : #7081b9;
-    --mild : #8997bd;
-    --footer : #214a28;
-    --black : #0b0b1b;
-    --twitter : #4ac7ec;
-    --dribble : #ff5da0;
-    --success : #1ecab0;
-    --danger : #f1646c;
-    --dark-blue : #28365f; 
-    --dark-grey : #171f33;
-    --yellow : #f3c74d;
-} */
-
 :root{
     --primary : #1a253f;
     --dark : #151A33;
@@ -59,7 +27,6 @@ B7B3A6 - 5th */
 body{ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     background-color: var(--dark);
-    /* background-color: #2A2927; */
     -webkit-font-smoothing: antialiased;
     padding-bottom: 5rem;
 }
@@ -105,6 +72,11 @@ nav .inner button {
     color: var(--pure);
     font-size: 14px;
     border-radius: 4px;
+}
+
+nav .inner button a {
+    text-decoration: none;
+    color: var(--pure);
 }
 
 section.profile{
@@ -161,7 +133,7 @@ section.profile .left .user_block{
     margin-right: 2rem;
 }
 
-section.profile .left .user_block span{
+section.profile .left .user_block span a{
     position: absolute;
     right: 4px;
     bottom: 4px;
@@ -177,6 +149,7 @@ section.profile .left .user_block span{
     cursor:pointer;
 }
 
+
 section.profile .right ul.contact {
     list-style-type: none;
     margin-bottom: 1.6rem;
@@ -191,6 +164,11 @@ section.profile .right ul.contact li{
 section.profile .right ul.contact li i{
     font-size: 18px;
     margin-right: 0.3rem;
+}
+
+section.profile .right ul.contact li a{
+    text-decoration: none;
+    color: var(--ternary)
 }
 
 section.profile .right ul.contact li:nth-child(1) i {
@@ -276,7 +254,7 @@ section.about .content h2{
 section.about .content p{
     color:var(--ternary);
     font-size: 15px;
-    line-height: 1.0;
+    line-height: 1.25;
     letter-spacing: 0.2px;
     margin-bottom: 1rem;
 }
@@ -304,6 +282,7 @@ section.about .content .right p{
     color:var(--ternary);
     letter-spacing: 0.1px;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 section.about .content .right p span:nth-child(1){
@@ -820,28 +799,3 @@ footer{
         flex-wrap: wrap;
     }
 }
-
-
-
-
-
-
-/* :root{
-    --primary : #1a253f;
-    --dark : #151A33;
-    --secondary : #2b55cc;
-    --info : #4d79f6; 
-    --ternary : #848db3;
-    --pure : #eff2f9;
-    --fade : #7081b9;
-    --mild : #8997bd;
-    --footer : #212A4A;
-    --black : #0b0b1b;
-    --twitter : #4ac7ec;
-    --dribble : #ff5da0;
-    --success : #1ecab0;
-    --danger : #f1646c;
-    --dark-blue : #28365f; 
-    --dark-grey : #171f33;
-    --yellow : #f3c74d;
-} */
