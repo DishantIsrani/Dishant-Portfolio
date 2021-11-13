@@ -37,7 +37,7 @@ h1, h2, h2, h4, h5, h6{
 }
 
 .container{
-    max-width: 1140px;
+    max-width: 1135px;
     /* max-width: 70%; */
     margin: 0 auto;
 }
@@ -597,6 +597,11 @@ section.contact .wrapper .left h4 {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+section.contact .wrapper .left a {
+    text-decoration: none;
+    color: #848bd3;
 }
 
 section.contact .wrapper .left {
